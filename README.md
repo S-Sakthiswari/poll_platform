@@ -1,3 +1,5 @@
+[![Watch the demo video](https://img.youtube.com/vi/RzCUqQnde7U/0.jpg)](https://youtu.be/RzCUqQnde7U?si=1wFIj53u0B4-Bu1h)
+
 # 📊 Poll Platform
 
 ## 🎯 Project Aim
@@ -65,7 +67,6 @@ Make sure the following are installed:
 
 ### **Clone the repository:**
 ```bash
-git clone https://github.com/your-username/poll-platform.git
 cd poll-platform
 ```
 
