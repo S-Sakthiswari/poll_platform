@@ -47,7 +47,6 @@ Clean and responsive UI for easy usage.
 |-----------|---------------------|
 | Frontend  | React               |
 | Backend   | Node.js, Express    |
-| Database  | MongoDB / JSON      |
 | Language  | JavaScript          |
 
 ---
