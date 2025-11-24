@@ -1,48 +1,102 @@
-📊 Poll Platform — README
+# 📊 Poll Platform
 
-📌 Overview
+## 🎯 Project Aim
+The **Poll Platform** helps users create simple polls, vote, and instantly view results. It provides an easy way to gather opinions and make quick decisions through a clean and user-friendly interface.
 
-A simple online polling platform where users can create polls, vote, and see real-time results. Built using React + Node.js/Express, great for learning CRUD, state management, and backend integration.
+---
 
-🚀 Features
+## 📌 Project Description
+The Poll Platform is a full-stack web application built to create and manage polls.
 
-📝 Create polls
+Users can:
 
-✔️ One vote per user
+- Create a poll  
+- Add multiple options  
+- Vote once per poll  
+- View real-time results  
+- Track poll expiry  
 
-📊 Live result updates
+It is built using **React** for the frontend and **Node.js/Express** for the backend, making it a great project for understanding basic full-stack concepts.
 
-⏳ Poll expiry option
+---
 
+## ⚙️ Features  
 
-🛠️ Tech Stack
+### 📝 Create Polls  
+Add a question and options to build a new poll.
 
-Frontend: React
-Backend: Node.js, Express
-Database: MongoDB / JSON (your choice)
+### ✔️ One Vote Per User  
+Ensures fair voting by restricting repeated votes.
 
-⚙️ How to Run
-1️⃣ Clone Repository
-git clone https://github.com/<your-username>/poll-platform.git
+### 📊 Live Result Updates  
+View results that update instantly after voting.
+
+### ⏳ Poll Expiry  
+Polls automatically close after the expiry time.
+
+### 🎨 Simple Interface  
+Clean and responsive UI for easy usage.
+
+---
+
+## 🧰 Tech Stack & Tools  
+
+| Component  | Technology         |
+|-----------|---------------------|
+| Frontend  | React               |
+| Backend   | Node.js, Express    |
+| Database  | MongoDB / JSON      |
+| Language  | JavaScript          |
+
+---
+
+## 🚀 Getting Started  
+
+### **Prerequisites**
+Make sure the following are installed:
+
+- Node.js  
+- npm  
+- MongoDB (or JSON storage)
+
+---
+
+## 🔧 Installation  
+
+### **Clone the repository:**
+```bash
+git clone https://github.com/your-username/poll-platform.git
 cd poll-platform
+```
 
-2️⃣ Install Dependencies
+---
 
-Frontend:
-
-cd client
+### **Install frontend dependencies:**
+```bash
+cd frontend
 npm install
 npm start
+```
 
+---
 
-Backend:
-
-cd server
+### **Install backend dependencies:**
+Open a new terminal:
+```bash
+cd backend
 npm install
 node index.js
+```
 
-🛠️ API Endpoints
-Method	Endpoint	Description
-POST	/polls	Create a poll
-GET	/polls/:id	Get poll details
-POST	/polls/:id/vote	Submit a vote
+---
+
+## 🔌 API Endpoints  
+
+| Method | Endpoint           | Description        |
+|--------|---------------------|--------------------|
+| POST   | `/polls`            | Create a new poll  |
+| GET    | `/polls/:id`        | Get poll details   |
+| POST   | `/polls/:id/vote`   | Submit a vote      |
+
+---
+
