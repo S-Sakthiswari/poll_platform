@@ -58,7 +58,7 @@ Make sure the following are installed:
 
 - Node.js  
 - npm  
-- MongoDB (or JSON storage)
+  
 
 ---
 
